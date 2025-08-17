@@ -13,106 +13,77 @@
             font-optical-sizing: auto;
             font-weight: 550;
             font-style: normal;
-            background-color: rgb(168, 81, 81);
-            color: yellow;
+            background-color: rgba(255, 239, 239, 0.946);
+            color: grey;
         }
         
         .starting-header
         {
-             text-align:justify ;
-             color: yellow;
+             text-align: justify;
+             color: grey;
              margin: 0px 200px 0px 200px;
-        }
-
-        h2
-        {
-            color: black;
         }
     </style>
 </head>
 <body>
     <!-- This div contains a header, a paragraph and a internal link-->
-    <header class="starting-header">
-        <h1 style="font-size: xx-large; color: black;">About Me</h1> 
+    <section class="starting-header">
+        <h1 style="font-size: xx-large;">About Me</h1> 
         <p>Hello, I'm Bishal Kumar Das. This is my profile, a static website which I have built using HTML with bit of CSS. 
             This is an assignment for the subject named Web Technologies. I'm currently studying Bachelor of Computer Applications at Assam Don Bosco University. 
             My course period is 4 years. I have already completed 2 and I will be here for 2 more years. Below you will find more about me which includes my hobbies and routine.</p>
-        <nav>
-            <a href="https://dbuniversity.ac.in/" style="margin-right: 30px; color: darkblue;">visit the university website here!</a>
-            <a href="#merch" style="color: darkblue; margin-left: 20px;">Check out my merchandises here!</a>
-        </nav>
-    </header>
+    
+        <a href="#merch" style="color: blue;">Check out my merchandises here!</a>
+    </section>
 
     <!-- This div contains the unordered and ordered lists -->
-    <main>
-        <section>
-            <ul style="margin: 50px 200px 0px 200px;">
-                <h2>Hobbies/Interests</h2>
-                <li>Drawing</li>
-                <li>Watching Football</li>
-                <li>Coding</li>
-                <li>Playing video games</li>
-                <li>Playing Reversi/Othello</li>
-            </ul>
-        </section>
+    <section>
+        <ul style="margin: 20px 200px 0px 200px;">
+            <h2>Hobbies/Interests</h2>
+            <li>Drawing</li>
+            <li>Watching Football</li>
+            <li>Coding</li>
+            <li>Playing video games</li>
+            <li>Playing Reversi/Othello</li>
+        </ul>
+        <ol style="margin: 20px 200px 0px 200px;">
+            <h2>Daily routine</h2>
+            <li>Wake up at 6:15</li>
+            <li>Attend University classes</li>
+            <li>Lunch at 12:00</li>
+            <li>Prepare notes and study</li>
+            <li>Do coding</li>
+            <li>Go for a walk or workout</li>
+        </ol>
+    </section>
 
-        <section>
-            <ol style="margin: 50px 200px 0px 200px;">
-                <h2>Daily routine</h2>
-                <li>Wake up at 6:15</li>
-                <li>Attend University classes</li>
-                <li>Lunch at 12:00</li>
-                <li>Prepare notes and study</li>
-                <li>Do coding</li>
-                <li>Go for a walk or workout</li>
-            </ol>
-        </section>
-        
-        <section>
-            <ol style="margin: 50px 200px 20px 200px;">
-                <h2>Academics</h2>
-                <li>Studying BCA at Assam Don Bosco University, Azara</li>
-                <li>Currently in 5th semester</li>
-                <li>Learned languages like C, Python, Java.</li>
-                <li>SGPA - 9.2</li>
-                <li>Participated in web development competition organized by Web Dev Club at Prajyukttam 2024-25</li>
-            </ol>
-        </section>
-    </main>
+    <!-- This ordered list contains the external link -->
+    <ol style="margin-top: 60px;">
+        <h2>Academics</h2>
+        <li>Studying BCA at Assam Don Bosco University, Azara</li>
+        <li>Currently in 5th semester</li>
+        <li>Learned languages like C, Python, Java.</li>
+        <li>SGPA - 9.2</li>
+        <li>Participated in web development competition organized by Web Dev Club at Prajyukttam 2024-25</li>
+    </ol>
+    <a href="https://dbuniversity.ac.in/" style="margin-left: 50px;">visit the university website here!</a>
     <hr>
-    <article style="text-align: justify; margin: 20px 10px 50px 10px;">
-            <h2>Amazing Computer Science Facts! 🤯</h2>
-            <p>
-                Did you know the first electronic digital computer weighed over 27 tons and took up an entire room? That was ENIAC, built during World War II! Fast forward to today, and we carry more computing power in our pockets than ENIAC had.
-            </p>
-            <p>
-                <b style="color: black;">Another mind-blowing fact:</b> The internet was initially created for the U.S. Department of Defense to enable researchers to share information! From a small network called ARPANET in 1969, it has evolved into the global phenomenon we use every day for communication, commerce, and entertainment.
-            </p>
-            <p>
-                And here's a fun one: the term <b style="color: black;">"bug"</b> in computer science comes from a real incident in 1947. A moth got stuck in a relay of the Harvard Mark II computer, causing it to malfunction! Engineers literally <b style="color: black;">"debugged"</b> the system, and the name stuck.
-            </p>
-    </article>
 
-    <hr>
     <!-- This div contains the image -->
-    <aside id="merch" style="text-align: center;">
+    <div id="merch" style="text-align: center;">
         <h2>Shop authentic merchandise from bkD store</h2>
-        <div style=" word-spacing: 10em; color: darkblue;">
-            <i>Shirts</i>
-            <i>Bags</i>
-            <i>Shoes</i>
-            <i>Hoodies</i>
+        <div style=" word-spacing: 10em; color: blueviolet;">
+            <b>Shirts</b>
+            <b>Bags</b>
+            <b>Shoes</b>
+            <b>Hoodies</b>
         </div>
         <figure style="margin: auto; padding-top: 15px;">
             <img src="clark-street-mercantile-P3pI6xzovu0-unsplash.jpg" alt="merchandises" style="height: 550px; width: 1160px;">
             <figcaption>This is an image of various merchandises provided by bkD store.</figcaption>
         </figure>
         <hr>
-        <i style="color: darkblue;">DC2023BCA0016</i>
-    </aside>
-
-    <footer>
-
-    </footer>
+        <i style="color: blueviolet;">DC2023BCA0016</i>
+    </div>
 </body>
 </html>
