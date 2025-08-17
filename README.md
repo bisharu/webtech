@@ -1,2 +1,2 @@
-# bisharu.github.io
+# webtech
 mini class projects
